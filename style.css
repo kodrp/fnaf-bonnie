@@ -32,6 +32,9 @@ h1 {
 .right {
     text-align: right;
 }
+.center {
+    text-align: center;
+}
 h3 {
     font-size: 55px;
     color:crimson;
@@ -56,20 +59,44 @@ h3 {
 .p {
     font-size: 30px;
 }
-.normal-image-left {
-    display: block;
-    margin: 20px auto;
-    float: left;
-    opacity: 0.8;              
-    height: 250px;               
-    width: auto;                
-    border-radius: 0;            
-    box-shadow: none;          
-}
+
 .github-ribbon {
     position: fixed;      
     top: 0;              
     right: 0;             
     border: 0;           
     z-index: 1000;
+}
+.container {
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+}
+.text-box {
+    flex: 1;
+    background-color: #5a1c55;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.imgcenter {
+    display: block;
+    margin: auto;
+    width: 200px;
+    height: 300px;
+}
+.small {
+    font-size: small;
+    color: white;
+}
+.button {
+    background-color: black;
+    color: whitesmoke;
+    border: rebeccapurple;
+    border-radius: 25px;
+    text-align: center;
+    font-size: small;
+    display: block;
+    margin: 0 auto;
+    width: fit-content;
 }
