@@ -1,0 +1,13 @@
+body {
+    background-color: rgb(9, 7, 9);
+}
+.jersey-10-regular {
+  font-family: "Jersey 10", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.jolly-lodger-regular {
+  font-family: "Jolly Lodger", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
