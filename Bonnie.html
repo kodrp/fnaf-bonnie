@@ -29,7 +29,7 @@
                 </p>
             </div>
             <div class="image-and-table">
-                <img src="bonniejumpscare.webp" alt="Bonnie Jumpscare" class="jumpscare">
+                <img id="bonnie-img" src="bonnie-normal.webp" alt="Bonnie" class="jumpscare">
                 <table class="bonnie-table">
                     <tr>
                         <th colspan="2">General Information</th>
@@ -44,6 +44,7 @@
                     </tr>
                     <tr>
                         <td>Creation Date</td>
+                        <td>1983</td>
                     </tr>
                     <tr>
                         <td>Employment</td>
@@ -87,6 +88,11 @@
                 </table>
             </div>
         </div>
+        <div id="flash-overlay" style="display: none;"></div>
         <button class="button"><a href="fnaf.html" target="_blank">return to homepage</a></button>
+        <div id="jumpscare-overlay" style="display: none;">
+            <img src="bonnie-jumpscare.webp" alt="Bonnie Jumpscare" id="jumpscare-img">
+        </div>
+        <script src="bonnie.js"></script>
     </body>
 </html>
