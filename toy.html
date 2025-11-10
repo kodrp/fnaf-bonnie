@@ -1,11 +1,100 @@
 <!DOCTYPE html>
 <html>
     <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
-    <title>Toy Bonnie</title>
+        <meta charset="UTF-8">
+        <title>Toy Bonnie</title>
+        <link rel="stylesheet" href="toy.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jolly+Lodger&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jersey+10&display=swap" rel="stylesheet">
+
     </head>
     <body>
-        
+        <a href="https://github.com/kodrp/fnaf-bonnie">
+        <img 
+        src="https://mtazzari.github.io/uvplot/_static/right-red@2x.png" 
+        alt="Fork me on GitHub" 
+        class="github-ribbon">
+        </a>
+        <h1 class="jersey-10-regular">Toy Bonnie</h1>
+        <div class="container">
+            <div class="left-column">
+                <div class="text-box">
+                    <p class="left jolly-lodger-regular fancy-red p">
+                        Among the various redesigns, Toy Bonnie exhibits the most significant transformations, aside from Mangle. He features a vibrant, glossy blue hue, with his belly, snout, and inner ears in a soft, light blue shade. His eyes are green, accompanied by purple eyelids, extended eyelashes, and vivid red, flushed cheeks. Additionally, he possesses a white, round tail that's only visible during his crawl through the Right Air Vent. Unlike the classic Bonnie, he includes eyebrows and bears no visual resemblance to Toy Freddy.
+                        Similar to the other updated versions, Toy Bonnie has a much sleeker surface texture than the original animatronics. He boasts a contemporary design with flexible, multi-segmented fingers and a rigid shell, in contrast to the cloth exteriors of the earlier models. Toy Bonnie is adorned with a red bow tie, a black button-like nose, whisker markings, and prominent front teeth, evoking the image of a typical cartoon rabbit—distinct from his predecessor. His eyes seem capable of independent movement. In an eerie fashion, his pupils shrink as he draws nearer to the player.
+                </div>
+                <button class="return-button jolly-lodger-regular">
+                    <a href="fnaf.html" target="_blank" style="color: red; text-decoration: none;">return to homepage</a>
+                </button>
+            </div>
+            <div class="image-and-table">
+                <img id="toy-img" src="toy-normal.webp" alt="Bonnie" class="jumpscare">
+                <table class="bonnie-table">
+                    <tr>
+                        <th colspan="2">General Information</th>
+                    </tr>
+                    <tr>
+                        <td>Owner</td>
+                        <td>Fazbear Entertainment, Inc.</td>
+                    </tr>
+                    <tr>
+                        <td>Model</td>
+                        <td>Animatronic Rabbit</td>
+                    </tr>
+                    <tr>
+                        <td>Creation Date</td>
+                        <td>1987</td>
+                    </tr>
+                    <tr>
+                        <td>Employment</td>
+                        <td>Guitarist</td>
+                    </tr>
+                    <tr>
+                        <td>First Appearance</td>
+                        <td>Five Nights at Freddy's 2</td>
+                    </tr>
+                    <tr>
+                        <td>Latest Appearance</td>
+                        <td>Five Nights at Freddy's: Help Wanted 2</td>
+                    </tr>
+                    <tr>
+                        <th colspan="2">Technical Information</th>
+                    </tr>
+                    <tr>
+                        <td>Class</td>
+                        <td>Toy Animatronic</td>
+                    </tr>
+                    <tr>
+                        <td>Model</td>
+                        <td>Rabbit</td>
+                    </tr>
+                    <tr>
+                        <td>Color</td>
+                        <td>Bright Blue</td>
+                    </tr>
+                    <tr>
+                        <td>Height</td>
+                        <td>6'0" (1.83 m)</td>
+                    </tr>
+                    <tr>
+                        <td>Eye Color</td>
+                        <td>Green</td>
+                    </tr>
+                    <tr>
+                        <td>Gender</td>
+                        <td>Male</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div id="flash-overlay" style="display: none;"></div>
+        <div id="jumpscare-overlay" style="display: none;">
+            <img src="toy-jumpscare.webp" alt="Toy Bonnie Jumpscare" id="jumpscare-img">
+        </div>
+        <script src="toy.js"></script>
     </body>
 </html>

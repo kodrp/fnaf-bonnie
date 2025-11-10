@@ -3,7 +3,7 @@ body {
 }
 .jumpscare {
     display: block;
-    width: 400px;
+    width: 220px;
     margin-bottom: 20px;
 }
 .image-and-table {
@@ -98,7 +98,7 @@ h1 {
     flex-direction: column; /* text box oben und button darunter */
     align-items: center;
     flex: 1;
-    gap: 115px; /* abstand zwischen text box und button */
+    gap: 140px; /* abstand zwischen text box und button */
 }
 .flash-active {
     display: block;

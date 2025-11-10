@@ -1,5 +1,54 @@
 body {
-    background-color: rgb(9, 7, 9);
+    background-color: rgb(26, 13, 24);
+}
+.jumpscare {
+    display: block;
+    width: 400px;
+    margin-bottom: 20px;
+}
+.image-and-table {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+table, th, td {
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    border-collapse: collapse;
+    background-color: #3d0d39;
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+    color: white;
+}
+th {
+    text-align: center;
+    font-size: larger;
+}
+.p {
+    font-size: 30px;
+}
+.github-ribbon {
+    position: fixed;      
+    top: 0;              
+    right: 0;             
+    border: 0;           
+    z-index: 1000;
+}
+.container {
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+}
+.text-box {
+    flex: 1;
+    background-color: #33052f;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 .jersey-10-regular {
   font-family: "Jersey 10", sans-serif;
@@ -10,4 +59,74 @@ body {
   font-family: "Jolly Lodger", system-ui;
   font-weight: 400;
   font-style: normal;
+}
+.glow-red {
+    color: red; 
+    text-shadow: 
+        0 0 3px red, 
+        0 0 7px red, 
+        0 0 10px darkred, 
+        0 0 20px crimson; 
+}
+.fancy-red {
+    color: red;
+    text-shadow:
+    0 0 5px black,
+    0 0 10px red,
+}
+h1 {
+    text-align: center;
+    font-size:100px ;
+    color: white;
+}
+.return-button {
+    background-color: rgb(44, 11, 51);
+    color: whitesmoke;
+    border: 2px solid red;
+    border-radius: 15px;
+    padding: 35px 70px;
+    text-align: center;
+    font-size: 44px;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    box-shadow: 0 0 10px red;
+    width: auto;
+}
+.left-column {
+    display: flex; /* stapelt das zeug vertikal */
+    flex-direction: column; /* text box oben und button darunter */
+    align-items: center;
+    flex: 1;
+    gap: 140px; /* abstand zwischen text box und button */
+}
+.flash-active {
+    display: block;
+    opacity: 1;
+}
+#flash-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(91, 7, 94);
+    z-index: 9999;
+    transition: opacity 0.3s;
+}
+#jumpscare-overlay {
+    position: fixed; /* ganzer bildschirm */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: flex; /* zentrieren */
+    justify-content: center; /* zentrieren */
+    align-items: center; /* zentrieren */
+    z-index: 10000; /* ueberdeckt alles */
+}
+#jumpscare-img {
+    max-width: 80%;
+    max-height: 80%;
 }
