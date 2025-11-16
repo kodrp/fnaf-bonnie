@@ -101,7 +101,7 @@ h1 {
     gap: 115px; /* abstand zwischen text box und button */
 }
 .flash-active {
-    display: block;
+    display: block !important;
     opacity: 1;
 }
 #flash-overlay {
@@ -110,9 +110,9 @@ h1 {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgb(91, 7, 94);
-    z-index: 9999;
-    transition: opacity 0.3s;
+    background-color: rgb(255, 255, 255);
+    z-index: 9000;
+    transition: opacity 0.1s;
 }
 #jumpscare-overlay {
     position: fixed; /* ganzer bildschirm */
@@ -124,7 +124,7 @@ h1 {
     display: flex; /* zentrieren */
     justify-content: center; /* zentrieren */
     align-items: center; /* zentrieren */
-    z-index: 10000; /* ueberdeckt alles */
+    z-index: 8000; /* ueberdeckt alles */
 }
 #jumpscare-img {
     max-width: 80%;
