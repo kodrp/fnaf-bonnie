@@ -1,8 +1,8 @@
 document.addEventListener('DOMContentLoaded', () => { // wartet bis seite geladen ist
-    const bonnieImg = document.getElementById('bonnie-img');
+    const bonnieImg = document.getElementById('funtime-img');
     const flashOverlay = document.getElementById('flash-overlay');
     const jumpscareOverlay = document.getElementById('jumpscare-overlay');
-    const jumpScareSound = new Audio('bonnie.mp3');
+    const jumpScareSound = new Audio('./mp3/funtime.mp3');
     
     let isJumpscaring = false; // Damits nd durchgehend ballert
 

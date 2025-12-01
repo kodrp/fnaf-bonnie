@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(39, 14, 36);
+    background-color: rgb(16, 49, 12);
 }
 .jumpscare {
     display: block;
@@ -17,7 +17,7 @@ table, th, td {
     border-style: solid;
     border-color: black;
     border-collapse: collapse;
-    background-color: #6d1365;
+    background-color: #062211;
 }
 th, td {
     padding: 10px;
@@ -45,7 +45,7 @@ th {
 }
 .text-box {
     flex: 1;
-    background-color: #5a1c55;
+    background-color: #062211;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
@@ -80,7 +80,7 @@ h1 {
     color: white;
 }
 .return-button {
-    background-color: rgb(44, 11, 51);
+    background-color: #062211;
     color: whitesmoke;
     border: 2px solid red;
     border-radius: 15px;

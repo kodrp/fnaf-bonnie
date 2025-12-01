@@ -1,11 +1,100 @@
 <!DOCTYPE html>
 <html>
     <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
-    <title>Rockstar Bonnie</title>
+        <meta charset="UTF-8">
+        <title>Rockstar Bonnie</title>
+        <link rel="stylesheet" href="./css/rockstar.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Jolly+Lodger&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Jersey+10&display=swap" rel="stylesheet">
+        <link rel="icon" href="./images/icon.jpg">
     </head>
     <body>
-        
+        <a href="https://github.com/kodrp/fnaf-bonnie" target="_blank">
+        <img 
+        src="https://mtazzari.github.io/uvplot/_static/right-red@2x.png" 
+        alt="Fork me on GitHub" 
+        class="github-ribbon">
+        </a>
+        <h1 class="jersey-10-regular">Rockstar Bonnie</h1>
+        <div class="container">
+            <div class="left-column">
+                <div class="text-box">
+                    <p class="left jolly-lodger-regular fancy-red p">
+                    Rockstar Bonnie is one of the rockstar animatronics and another redesigned version of the original Bonnie for the newer pizzeria, first appearing in Freddy Fazbear's Pizzeria Simulator. Rockstar Bonnie resembles a combination between both Toy Bonnie and Withered Bonnie from Five Nights at Freddy's 2, with bluish accents and lighter shades on his muzzle, toes, belly, and ear interior. His tilted/bent right ear is eerily similar to Withered Bonnie's. His cheeks, eyelids, and knees, are colored with rosy magenta accents. He has green eyes, a much brighter red bowtie, and two golden star-shaped buttons on his chest. Like other "rockstar" animatronics, his head and jaw appears to be separated, with buck teeth under the muzzle and more teeth from his bottom jaw.
+                    </p>
+                </div>
+                <button class="return-button jolly-lodger-regular">
+                    <a href="fnaf.html" style="color: red; text-decoration: none;">return to homepage</a>
+                </button>
+            </div>
+            <div class="image-and-table">
+                <img id="rockstar-img" src="./images/rockstar.webp" alt="Rockstar Bonnie" class="jumpscare">
+                <table class="bonnie-table">
+                    <tr>
+                        <th colspan="2">General Information</th>
+                    </tr>
+                    <tr>
+                        <td>Owner</td>
+                        <td>Fazbear Entertainment, Inc.</td>
+                    </tr>
+                    <tr>
+                        <td>Model</td>
+                        <td>Animatronic Rabbit</td>
+                    </tr>
+                    <tr>
+                        <td>Creation Date</td>
+                        <td>1980s</td>
+                    </tr>
+                    <tr>
+                        <td>Employment</td>
+                        <td>Guitarist</td>
+                    </tr>
+                    <tr>
+                        <td>First Appearance</td>
+                        <td>Freddy Fazbear's Pizzeria Simulator</td>
+                    </tr>
+                    <tr>
+                        <td>Latest Appearance</td>
+                        <td>Five Nights at Freddy's: Help Wanted 2</td>
+                    </tr>
+                    <tr>
+                        <th colspan="2">Technical Information</th>
+                    </tr>
+                    <tr>
+                        <td>Class</td>
+                        <td>Rockstar Animatronic</td>
+                    </tr>
+                    <tr>
+                        <td>Model</td>
+                        <td>Rabbit</td>
+                    </tr>
+                    <tr>
+                        <td>Color</td>
+                        <td>Purple/Blue</td>
+                    </tr>
+                    <tr>
+                        <td>Height</td>
+                        <td>6'2" (1.88 m)</td>
+                    </tr>
+                    <tr>
+                        <td>Eye Color</td>
+                        <td>Green</td>
+                    </tr>
+                    <tr>
+                        <td>Gender</td>
+                        <td>Male</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div id="flash-overlay" style="display: none;"></div>
+        <div id="jumpscare-overlay" style="display: none;">
+            <img src="./images/rockstar-jumpscare.webp" alt="Rockstar Bonnie Jumpscare" id="jumpscare-img">
+        </div>
+        <script src="rockstar.js"></script>
     </body>
 </html>

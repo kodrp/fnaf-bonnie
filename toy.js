@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', () => { // wartet bis seite gelade
 const bonnieImg = document.getElementById('toy-img');
 const flashOverlay = document.getElementById('flash-overlay');
 const jumpscareOverlay = document.getElementById('jumpscare-overlay');
-const jumpScareSound = new Audio('withered.mp3');
+const jumpScareSound = new Audio('./mp3/withered.mp3');
 let isJumpscaring = false; // Damits nd durchgehend ballert
 bonnieImg.addEventListener('mouseover', () => {
     if (isJumpscaring) return; // Damits sichs nd wiederholt
