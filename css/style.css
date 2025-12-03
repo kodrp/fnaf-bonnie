@@ -1,0 +1,189 @@
+html {
+    cursor: url('../images/cursor.png'), auto;
+    scrollbar-width: thin;
+    scrollbar-color: crimson #220625;
+    overflow-x:hidden;
+    overflow-y:auto;
+}
+
+a, button, [role="button"] {
+    cursor: url('../images/cursor.png'), pointer;
+}
+
+body {
+    background-color: #220625;
+}
+
+h1 {
+    text-align: center;
+    font-size:100px ;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.glow-round {
+    display: block;              
+    margin: 20px auto;           
+    border-radius: 50%;          
+    border: 5px solid red;      
+    box-shadow: 0 0 20px red;    
+    height: 200px;
+    width: 200px;
+    object-fit: cover;          
+}
+.jersey-10-regular {
+  font-family: "Jersey 10", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.jolly-lodger-regular {
+  font-family: "Jolly Lodger", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+.left {
+    text-align: left;
+}
+.right {
+    text-align: right;
+}
+.center {
+    text-align: center;
+}
+h3 {
+    font-size: 55px;
+    color:crimson;
+}
+.glow-red {
+    color: red; 
+    text-shadow: 
+        0 0 3px red, 
+        0 0 7px red, 
+        0 0 10px darkred, 
+        0 0 20px crimson; 
+}
+.white {
+    color: white;
+}
+.fancy-red {
+    color: red;
+    text-shadow:
+    0 0 5px black,
+    0 0 10px red,
+}
+.p {
+    font-size: 30px;
+}
+
+.github-ribbon {
+    position: fixed;
+    top: 0;
+    right: 0;
+    border: 0;
+    z-index: 1001;
+}
+nav {
+    position: sticky;
+    top: 0;
+    background-color: black;
+    padding: 10px 0;
+    margin: 0;
+    border: 2px solid red;
+    box-shadow: 0 0 10px red;
+    z-index: 1000;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+nav li {
+    margin: 0 20px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    border: 1px solid red;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+nav a:hover {
+    background-color: red;
+    color: black;
+}
+.container {
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+}
+.text-box {
+    flex: 1;
+    background-color: #5a1c55;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.imgcenter {
+    display: block;
+    margin: auto;
+    width: 200px;
+    height: 300px;
+}
+.small {
+    font-size: small;
+    color: white;
+}
+.button {
+    background-color: black;
+    color: whitesmoke;
+    border: rebeccapurple;
+    border-radius: 25px;
+    text-align: center;
+    font-size: small;
+    display: block;
+    margin: 0 auto;
+    width: fit-content;
+}
+.appearances-container {
+    margin: 20px 0;
+}
+.appearance-row {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.appearance-item {
+    flex: 1;
+    text-align: center;
+    margin: 0 10px;
+}
+.appearance-item:hover {
+    transform: scale(1.2);
+    transition: transform 0.3s;
+}
+footer {
+    background-color: #1c0525; 
+    color: #ccc;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px; 
+    border-top: 2px solid rgb(0, 0, 0); 
+}
+.imprint-container {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 14px;
+    line-height: 1.5;
+}
+#characters {
+    background: linear-gradient(135deg, #000000 0%, #2D1B1B 25%, #3D1818 50%, #2D1B1B 75%, #000000 100%);
+}
+
