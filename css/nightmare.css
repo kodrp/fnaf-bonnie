@@ -1,3 +1,15 @@
+html {
+    cursor: url('../images/cursor.png'), auto;
+    scrollbar-width: thin;
+    scrollbar-color: crimson #220625;
+    overflow-x:hidden;
+    overflow-y:auto;
+}
+
+a, button, [role="button"] {
+    cursor: url('../images/cursor.png'), pointer;
+}
+
 body {
     background-color: rgb(30, 5, 27);
 }

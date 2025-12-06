@@ -11,7 +11,8 @@ a, button, [role="button"] {
 }
 
 body {
-    background-color: #220625;
+    background: linear-gradient(230deg, #000000 0%, #2e0b2e 25%, #571b4f 50%, #2e0b2e 75%, #000000 100%);
+    
 }
 
 h1 {
@@ -24,7 +25,6 @@ a {
     text-decoration: none;
     color: inherit;
 }
-
 .glow-round {
     display: block;              
     margin: 20px auto;           
@@ -136,6 +136,7 @@ nav a:hover {
     margin: auto;
     width: 200px;
     height: 300px;
+    filter: drop-shadow(0 0 12px black);
 }
 .small {
     font-size: small;
