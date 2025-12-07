@@ -10,6 +10,7 @@ a, button, [role="button"] {
 }
 body {
     background: linear-gradient(230deg, #000000 0%, #2e0b2e 25%, #571b4f 50%, #2e0b2e 75%, #000000 100%);
+    min-height: 100vh;
 }
 .jersey-10-regular {
   font-family: "Jersey 10", sans-serif;
@@ -84,22 +85,11 @@ nav a:hover {
     margin-top: 80px;
 }
 .container {
-  display: flex;
-  gap: 20px;              /* Space between table and text box */
-  align-items: flex-start; /* Align to top */
+  display: flex;           
+  align-items: flex-start; 
   justify-content: left; 
   margin: 100px 50px 10px 150px;
 }
-
-#boutme {
-  border-collapse: collapse;;
-}
-
-#boutme th, td {
-  border: 1px solid #580a58;
-  padding: 10px;
-}
-
 .text-box {
   border: 1px solid #2e0d2b;
   border-radius: 10px;
